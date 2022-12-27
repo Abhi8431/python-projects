@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+       <title>Admin</title>
+       <link rel="shortcut icon" href="{{url_for('static', filename='/static/images/favicon.png')}}">
+       <link rel="stylesheet" href="{{url_for('static', filename='/static/css/login.css')}}">
+       
+   </head>
+   <body style="text-align: center;">
+      <p style="margin-left: auto; margin-right: auto;">Database Contents</p>
+      <table border = 1 style="margin-left: auto; margin-right: auto;">
+         <thead>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Feedback</td>
+            <td>Date</td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td>{{row["name"]}}</td>
+               <td>{{row["email"]}}</td>
+               <td> {{ row["Feedback"]}}</td>
+               <td>{{row['cur_date']}}</td>	
+            </tr>
+         {% endfor %}
+      </table>
+      
+      <a href = "/">Go back to home page</a>
+      
+   </body>
+      
+    
+      
+</html>

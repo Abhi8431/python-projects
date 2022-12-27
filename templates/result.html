@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection | Result</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="{{url_for('static', filename='images/favicon.png')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/result.css')}}">
+    <!-- <script src="{{url_for('static', filename='js/index.js')}}"></script> -->
+</head>
+<body>
+
+    <!-- Header of the homepage-->
+    <header>
+        <img src="{{url_for('static', filename='images/favicon.png')}}" alt="">
+        <h1>MATRIX</h1>
+    </header>
+
+      
+        <div id="res">
+            <img src="{{plant_img}}" alt="Uploaded Image">
+            {% for line in final_res %}
+            <p><b>{{line}}</b></p>
+            {% endfor %}
+    </div>
+    <a href="detect" id="det">Detect another?</a><br>
+    <!-- <a href="/">Home</a> -->
+    <footer>
+        <p>&copy Created by team MATRIX</p>
+    </footer>
+</body>
+</html>

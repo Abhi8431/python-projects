@@ -1,0 +1,36 @@
+
+/* temp */
+/* nav{
+    background-color: #334756;
+    text-align: center;
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #71EFA3;
+}
+
+nav ul li a{
+    position: relative;
+    top: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif';
+}
+
+nav ul li a:hover{
+    color: #CEE5D0;
+    transition: 0.3s;
+    border-bottom: 4px solid chocolate;
+}
+*/

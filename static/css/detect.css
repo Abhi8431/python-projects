@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: white;
+}
+
+#warning{
+  display: flex;
+  position: relative;
+  max-width: 450px;
+  margin: auto;
+  justify-content: center;
+}
+
+.drag-area{
+  display: flex;
+  position: relative;
+  margin: 50px 0px 50px 50px;
+  border: 3px dashed black;
+  height: 450px;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+}
+.drag-area.active{
+  border: 2px solid #1c759e;
+}
+.drag-area .icon{
+  position: relative;
+  font-size: 100px;
+  color: #fff;
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  position: absolute;
+  bottom: 30px;
+  left: 30%;
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #064663;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.drag-area button:hover{
+  background-color: #1c759e;
+}
+
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.drag-area select{
+  position: relative;
+  top: -60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  text-align: center;
+}
+
+
+.drag-area label{
+  position: relative;
+  left: -110px;
+}
+
+#for_plant{
+  position: relative;
+  top: -100px;
+  left: 110px;
+}
+
+#user_upload{
+  position: relative;
+  left: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+#result_box{
+  position: relative;
+  margin-top: none;
+  top: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  display: none;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+
+
+section{
+  background-color: white;
+  background: none;
+  width: 100%;
+  
+}
+
+@media screen and (max-width: 600px){
+  .drag-area{
+    width: 330px;
+  }
+
+  .container{
+    width: 98%;
+    margin-right: none;
+  }
+  .drag-area label{
+    position: relative;
+    left: 50px;
+  }
+}
+
+/* loader */
+
+
+.wrapper-1{
+  display: none;
+  opacity:0.8;
+  background-color: white;
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  z-index:1000;
+}
+.wrapper-2{
+  width: 40px;
+  height: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.anim{
+  height: 30px;
+  width: 10px;
+  display: inline-block;
+  margin: 2px;
+  padding: none;
+}
+
+#one{
+  background: linear-gradient(to top, #380036, #CCCCFF);
+  animation: load 2.5s infinite;
+  transition: smooth;
+}
+#two{
+  background: linear-gradient(to top, #380036, #CCCCFF);
+  animation: load-2 2.5s infinite;
+  transition: smooth;
+}
+
+#three{
+  background: linear-gradient(to top, #380036, #CCCCFF);
+  animation: load-3 2.5s infinite;
+  transition: smooth;
+}
+
+#four{
+  background: linear-gradient(to top, #380036, #CCCCFF);
+  animation: load-4 2.5s infinite;
+  transition: smooth;
+}
+@keyframes load{
+  0%{
+    transform: scale(0.5);
+  }
+  50%{
+    transform: scale(1.5);
+  }
+  100%{
+    transform: scale(0.5);
+  }
+}
+@keyframes load-2{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(0.5);
+  }
+  100%{
+    transform: scale(1.5);
+  }
+}
+@keyframes load-3{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.5);
+  }
+  100%{
+    transform: scale(0.5);
+  }
+}
+@keyframes load-4{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(.5);
+  }
+  100%{
+    transform: scale(1.5);
+  }
+}
+
+
+

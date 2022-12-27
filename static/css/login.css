@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(to left, #FFCCCC, #CCFFFF);
+}
+
+#login_form{
+    /* background: linear-gradient(to right, #FFCCCC, #CCFFFF); */
+    background-color: white;
+    position: relative;
+    padding: 30px;
+    height: 300px;
+    width: 300px;
+    top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input{
+    margin: 10px;
+}

@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 80px;
+    /* background: url("/images/stockvault-forest-path115450.jpg"); */
+    background-color: #334756;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+
+}
+
+header h1{
+    position: relative;
+    display: inline;
+    top: 25px;
+    margin: 0px auto;
+    color: white;
+    color: #F0A500;
+}
+
+
+header img{
+    position: relative;
+    top: 20px;
+    display: inline;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+/* Navbar */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #334756;
+    width: 100%;
+    height: 58px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    
+  
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #FF7F3F;
+    transition: 0.3s;
+    border-bottom: 4px solid chocolate;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #4FBDBA;
+    color: black;
+    border-bottom: 4px solid chocolate;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+#nav-home{
+    float: left;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+}
+
+#nav-home img{
+    margin: 0;
+    height: 40px;
+    width: 40px;
+}
+
+#nav-home a:hover{
+    text-decoration: none;
+}
+
+section{
+    position: flex;
+    width: 100%;
+    height: 500px;
+    background: url('../images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+}
+
+.cont{
+    padding: 50px 120px 50px 50px;
+    position: relative;
+    height: 500px;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom-right-radius: 400px;
+    border-top-right-radius: 400px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+footer{
+    border-top: 5px solid green;
+    width: 100%;
+    height: 110px;
+    background-color: #334756;
+    text-align: center;
+}
+
+footer p{
+    position: relative;
+    color: white;
+    top: 40px;
+}
+
+.cont p{
+    text-align: left;
+    max-width: 600px;
+    padding-right: 40px;
+    font-size: 1.3em;
+    margin-top: 30px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: greenyellow;
+    color: indigo;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+    border-bottom: 5px solid black;
+    color: white;
+    transition: 0.3s ease-out;
+}
+
+
+
+
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+        position: relative;
+      
+      display: inline-block;
+      text-align: center;
+    }
+
+    section{
+        position: relative;
+        width: 100%;
+        height: 600px;
+    }
+    
+    .cont{
+        position: relative;
+        padding: 20px;
+        margin: 0;
+        height: 600px;
+        width: 100%;
+        background: url('/images/background.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .cont p{
+        color: #FFF9F9;
+        font-weight: 500;
+    }
+
+    h2{
+        color: yellow;
+        font-weight: bold;
+    }
+    
+  }
+
+  @media screen and (max-width: 1100px) and (orientation: landscape) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+        position: relative;
+      
+      display: inline-block;
+      text-align: center;
+    }
+
+    section{
+        position: relative;
+        width: 100%;
+        height: 600px;
+        
+    }
+    
+    .cont{
+        position: relative;
+        padding: 20px;
+        margin: 0;
+        height: 600px;
+        width: 75%;
+        background: url('/images/background.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-right-radius: 300px;
+        background-color: #f2f2f2;
+    }
+    
+    .cont p{
+        color: black;
+        font-size: 16px;
+    }
+
+    h2{
+        color: black;
+        font-weight: bold;
+    }
+    
+  }

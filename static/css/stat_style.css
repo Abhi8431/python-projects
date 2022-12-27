@@ -1,0 +1,392 @@
+@import url('style.css');
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+    width: 100%;
+    height: 110px;
+    /* background: url("/images/stockvault-forest-path115450.jpg"); */
+    background-color: #334756;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+
+}
+section{
+	background: none;
+	width: 100%;
+	padding: none;
+}
+
+.header{
+	height: 200px;
+	width: 100%;
+	/* background-image: url('../images/leaf.jpeg'); */
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	
+}
+
+.logo{
+	width:250px ;
+	height: 150px;
+	position: relative;
+	top: 200px;
+	left: 400px;
+	border-radius: 50%;
+}
+
+.text{
+width: 100%;
+height: 100%;
+font-size: 45px;
+color: white;
+position: relative;
+left: 670px;
+top: 55px;
+
+}
+
+
+.apple{
+	height: 800px;
+	width: 100%;
+	background-color: #f0f8ff;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+
+.apple1{
+	width: 500px;
+	height: 250px;
+	position: relative;
+	top: 100px;
+	left: 20px;
+
+}
+.apple2{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 485px;
+
+}
+.textapple{
+	position: relative;
+	width: 100%;
+height: 100px;
+font-size: 45px;
+color: dodgerblue;
+
+ 
+left: 670px;
+
+
+}
+.apple3{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 200px;
+
+}
+
+/*ul{
+position: relative;
+float: right;
+color: dodgerblue;
+width: 50%;
+font-style: italic;
+
+
+}*/
+
+.potato{
+	height: 800px;
+	width: 100%;
+	background-color: #f0f8ff;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+
+.potato1{
+	width: 500px;
+	height: 250px;
+	position: relative;
+	top: 100px;
+	left: 20px;
+
+}
+.potato2{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 485px;
+
+}
+.textpotato{
+	position: relative;
+	width: 100%;
+height: 100px;
+font-size: 45px;
+color: dodgerblue;
+
+ 
+left: 670px;
+
+
+}
+.potato3{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 200px;
+
+}
+
+.cherry{
+	height: 800px;
+	width: 100%;
+	background-color: #f0f8ff;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+
+.cherry1{
+	width: 500px;
+	height: 250px;
+	position: relative;
+	top: 100px;
+	left: 20px;
+
+}
+.cherry2{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 485px;
+
+}
+.textcherry{
+	position: relative;
+	width: 100%;
+height: 100px;
+font-size: 45px;
+color: dodgerblue;
+left: 670px;
+
+
+}
+
+.cherry3{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 200px;
+
+}
+
+.pepper{
+	height: 800px;
+	width: 100%;
+	background-color: #f0f8ff;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+
+.pepper1{
+	width: 500px;
+	height: 250px;
+	position: relative;
+	top: 100px;
+	left: 20px;
+
+}
+.pepper2{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 485px;
+
+}
+.textpepper{
+	position: relative;
+	width: 100%;
+height: 100px;
+font-size: 45px;
+color: dodgerblue;
+left: 670px;
+
+
+}
+
+.pepper3{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 200px;
+
+}
+
+
+.strawberry{
+	height: 800px;
+	width: 100%;
+	background-color: #f0f8ff;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+
+.strawberry1{
+	width: 500px;
+	height: 250px;
+	position: relative;
+	top: 100px;
+	left: 20px;
+
+}
+.strawberry2{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 485px;
+
+}
+.textstrawberry{
+	position: relative;
+	width: 100%;
+height: 100px;
+font-size: 45px;
+color: dodgerblue;
+left: 670px;
+
+
+}
+
+.strawberry3{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 200px;
+
+}
+
+.tomato{
+	height: 800px;
+	width: 100%;
+	background-color: #f0f8ff;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+
+.tomato1{
+	width: 500px;
+	height: 250px;
+	position: relative;
+	top: 100px;
+	left: 20px;
+
+}
+.tomato2{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 485px;
+
+}
+.texttomato{
+	position: relative;
+	width: 100%;
+height: 100px;
+font-size: 45px;
+color: dodgerblue;
+left: 670px;
+
+
+}
+
+.tomato3{
+	position: relative;
+	width: 500px;
+	height: 250px;
+	top: 400px;
+	right: 200px;
+
+}
+@import url('https://fonts.googleapis.com/css?family=rubik&display=swap');
+
+ .question{
+	height: 800px;
+	width: 100%;
+	background-color: #f0f8ff;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	
+}
+.box{
+	width:1000px;
+	margin: 100px auto;
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 3);
+}
+.box .heading{
+
+	background:#334756;
+	border-radius: 7px 7px 0px 0px;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+	font-family: "rubik";
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.faqs{
+	padding: 10px 20px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(34, 82, 32)(166, 255, 0);
+}
+.faqs p{
+	font-weight: 300;
+	color: black;
+}
+
+::-webkit-details-marker{
+	float: right;
+	margin-top: 3px;
+}
+
+details{
+	background: #f6f6f6;
+	padding: 10px;
+	border-radius: 7px;
+	margin-top:20px ;
+
+}
